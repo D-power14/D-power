@@ -12,6 +12,7 @@ div {
     background: blanchedalmond;
     border: 5px solid grey;
     margin: 10px;
+    position: relative;
 }
 
 h1 {
@@ -19,10 +20,20 @@ h1 {
     font-size: 29px;
     background-color: coral;
     border: 4px solid black;
+    margin: 0;
 }
 
+.caja3 {
+    display: inline-block;
+}
 
-@media only screen and (max-width: 1000px) {
+.position {
+   position: absolute;
+   top: 0;
+   right: 0;
+}
+
+@media only screen and (max-width: 500px) {
 
 	div {
 		display: block;
