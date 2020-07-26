@@ -1,17 +1,8 @@
-* {
-    margin: 0px;
-    padding: 0px;
-    font-family: cursive,Georgia, 'Times New Roman', Times, serif;
-    align-items: center;
-    text-align: center;
-    
+body {
+    font-size: 16px;
+    color: #fff;
+    background-color: #61122f;
+    font-family: Oxygen;
 }
 
-
-h1 {
-    background-color: aqua;
-    flex: auto;
-    text-align: center;
-    margin: 0 auto;
-}
-
+/* HEADER */
