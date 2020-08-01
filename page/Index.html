@@ -7,6 +7,7 @@
 	<meta name="viewport" content="width=device-width, initial scale=1" maximun.scale=1.0>
 	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
 	<link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+	<link type="text/css" href="https://getbootstrap.com/1.0.0/assets/css/bootstrap-1.0.0.min.css">
 	<link rel="stylesheet" href="Style.css">
 	<link rel="stylesheet" href="pixel-v1.0/pixel.css">
 	<!--Estilo de letra-->
@@ -29,14 +30,37 @@
 					</p>
 				</div>	
 
-				<button type="button" class="navbar-toggle collapsed icon-menu"  data-toggle="collapsed"  data-target="#collapsed-nav" aria-expanded="false">
-					<span class="sr-only"></span>
+				<button type="button" class="collapsed"  data-toggle="collapsed"  data-target="#collapsed-nav" aria-expanded="false">
+					<span class="sr-only">Toggle navigation</span>
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
+			</div>   
+			
+			<div id="collapsable-nav" class="collapse navbar-collapse">
+				<ul id="collapse-nav" class="collapse navbar-collapse">
+					<li>
+						<a href="menu-categories">
+							<span class="glyphicon glyphcon-cutlery"><br class="hidden-xs"></span><br class="hidden-xs">Menu</a>
+					</li>
+					<li>
+						<a href="#">
+							<span class="glyphicon glyphcon-info-sign"></span><br class="hidden-xs"> About </a>
+					</li>
+					<li>
+						<a href="#">
+							<span class="glyphicon glyphicon-certificate"></span><br class="hidden-xs"> Awards </a>
+					</li>
+					<li id="phone">
 
-            </div>   
+					</li>
+					<li>
+
+					</li>
+				</ul>
+			</div>
+
 		</div>
 	</nav>
 </header>
