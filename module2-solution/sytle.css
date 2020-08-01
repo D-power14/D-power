@@ -17,6 +17,12 @@ div {
     box-sizing: border-box;
 }
 
+
+header {
+  background-color: aquamarine;
+  width: 100%;
+}
+
 h1 {
     display: inline-block;
     font-size: 29px;
@@ -51,18 +57,18 @@ h2 {
 @media (min-width: 768px) and (max-width: 991px){
      div{
       width: 46%;
-      float: left;
+     
     }
     .caja3{
      width: 95%;
-     float: left;
+    
    }
   }
   
   
   @media (max-width: 767px){
     div{
-      width: 100%;
-      float: left;
+      width: 90%;
+      
     }
   }
