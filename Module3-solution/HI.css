@@ -60,7 +60,7 @@ body {
     text-align: center;
   }
   #nav-list a:hover {
-    background: #E7E7E7;
+    background: #c3aed6;
   }
   #nav-list a span {
     font-size: 1.8em;
@@ -96,6 +96,14 @@ body {
      background-color: #322f3d;
      margin: 40px;
      border: 10px solid #221f3b;
+ }
+
+ main h1 {
+   color: #6f4a8e;
+ }
+
+ main p {
+   color: #f4eeff;
  }
   
   /********** Large devices only **********/
