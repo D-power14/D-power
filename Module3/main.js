@@ -21,7 +21,7 @@ document.write("Hola mundo")
 
 console.log(xy)
 
-//ifelse
+//ifelse, ejm es si "o" es mayor que "u" ejecutar console.log
 
 if (o >= u) {
      console.log("uwu")
@@ -29,8 +29,11 @@ if (o >= u) {
      console.log("Hola")
 }
 
-//bucle while
+//Haciendo esto como en react xd
+var i =
 
-
+for (var i = 0; i<=2000; i++) {
+     
+};
 
 //el cuadro de alerta = alert("HI? user283459344")
