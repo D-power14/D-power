@@ -1,4 +1,5 @@
 var x = "Hello World!"; 
+var y = "D-power!!!";
 
 
 //Mostrar en consola web
@@ -15,3 +16,7 @@ alert("HI? user283459344")
 document.write("Hola mundo")
 
 //suma de caracteres y para espacios esto "  "
+
+var xy = x + "  " + y;
+console.log(xy)
+
