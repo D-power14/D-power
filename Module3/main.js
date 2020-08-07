@@ -1,5 +1,8 @@
+//donde declaro variables
+
 var x = "Hello World!"; 
 var y = "D-power!!!";
+var xy = x + "  " + y;
 
 
 //Mostrar en consola web
@@ -7,16 +10,18 @@ var y = "D-power!!!";
 console.log(x);
 console.log("D-power!!!!")
 
-//el cuadro de alerta
-
-alert("HI? user283459344")
-
 //escribir en el viewport con js
 
 document.write("Hola mundo")
 
 //suma de caracteres y para espacios esto "  "
 
-var xy = x + "  " + y;
 console.log(xy)
 
+//Funciones
+
+
+
+//el cuadro de alerta
+
+alert("HI? user283459344")
