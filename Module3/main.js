@@ -3,7 +3,7 @@
 var x = "Hello World!"; 
 var y = "D-power!!!";
 var xy = x + "  " + y;
-var o = 1
+var o = 4
 var u =2
 
 
@@ -21,7 +21,16 @@ document.write("Hola mundo")
 
 console.log(xy)
 
+//ifelse
 
-//el cuadro de alerta
+if (o >= u) {
+     console.log("uwu")
+}else {
+     console.log("Hola")
+}
 
-alert("HI? user283459344")
+//bucle while
+
+
+
+//el cuadro de alerta = alert("HI? user283459344")
