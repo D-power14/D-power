@@ -3,6 +3,9 @@
 var x = "Hello World!"; 
 var y = "D-power!!!";
 var xy = x + "  " + y;
+var o = 1
+var u =2
+
 
 
 //Mostrar en consola web
@@ -17,10 +20,6 @@ document.write("Hola mundo")
 //suma de caracteres y para espacios esto "  "
 
 console.log(xy)
-
-//Funciones, ejm
-
-func
 
 
 //el cuadro de alerta
