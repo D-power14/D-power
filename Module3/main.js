@@ -18,8 +18,9 @@ document.write("Hola mundo")
 
 console.log(xy)
 
-//Funciones
+//Funciones, ejm
 
+func
 
 
 //el cuadro de alerta
