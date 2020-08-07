@@ -1,11 +1,10 @@
 body {
      background-color: #848ccf;
-     color: #1b262c;
-    
+     color: #1b262c; 
 }
-/* los h y p*/
+
 h1 {
      text-transform: uppercase; 
      font-size: 60px;
 }
-/*final 1 de h y p*/
+

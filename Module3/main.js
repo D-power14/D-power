@@ -11,7 +11,7 @@ var u =2
 //Mostrar en consola web
 
 console.log(x);
-console.log("D-power!!!!")
+console.log(y)
 
 //escribir en el viewport con js
 
@@ -45,12 +45,12 @@ var nombres = ['victor','antonio','joaquin']
 for ( i = 0; i < nombres.length; i++) {
      document.write(nombres[i] + '<br>')
      
-}
+};
 
 nombres.forEach(function (nombre) {
      document.write(nombre + `<br/>`)
      
-})
+});
 
 //alert(nombres[0]);
 //el cuadro de alerta = alert("HI? user283459344")
