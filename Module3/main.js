@@ -29,11 +29,28 @@ if (o >= u) {
      console.log("Hola")
 }
 
-//Haciendo esto como en react xd
-var i =
+//función e invocandola(la función :V), recordar que al invocarla se define parametro (el Hola, en Este caso)
 
-for (var i = 0; i<=2000; i++) {
-     
+function a (Hola) {
+     document.write("<wrappingElement></wrappingElement>");(Hola)
 };
 
+a(" Hola!! 980");
+
+//Variables con multiples valores = array con un for que muestra todo los nombres y un forEach que es para buscar
+
+
+var nombres = ['victor','antonio','joaquin']
+
+for ( i = 0; i < nombres.length; i++) {
+     document.write(nombres[i] + '<br>')
+     
+}
+
+nombres.forEach(function (nombre) {
+     document.write(nombre + `<br/>`)
+     
+})
+
+//alert(nombres[0]);
 //el cuadro de alerta = alert("HI? user283459344")
