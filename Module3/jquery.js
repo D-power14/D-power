@@ -104,4 +104,6 @@ for (let color of colors) {
 $('#coc').click(function () {
     $('#coc').attr('width', 300)
     $('#coc').attr('src', 'Frank, el buen frank.jpg')
-})
+}) // existe removeattr, excepto de dar con attr quita cosas de la etiqueta 
+
+// TODO: Dimensiones
