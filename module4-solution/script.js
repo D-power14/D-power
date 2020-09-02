@@ -1,4 +1,3 @@
-
 /*
 Hello Yaakov
 Good Bye John
@@ -33,7 +32,7 @@ WARNING!!! WARNING!!!
     "Paula",
     "Laura",
     "Jim",
-  ]();
+  ];
 
   // STEP 10: (NOTHING TO DO. ALREADY DONE FOR YOU)
   // Loop over the names array and say either 'Hello' or "Good Bye"

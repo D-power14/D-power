@@ -5,7 +5,7 @@
     $('.saludo').css({ 'background-color': 'red' })
 })*/
 
-//ALL: usando el ready, para que es? ejecutar apenas comienza tal cosa, apenas cargar h1 darle color rojo entre muchos otras funciones xd
+//TODO: usando el ready, para que es? ejecutar apenas comienza tal cosa, apenas cargar h1 darle color rojo entre muchos otras funciones xd
 
 /*$().ready(function () {
     alert('hola')
@@ -101,9 +101,44 @@ for (let color of colors) {
 }*/
 
 //TODO: Metodo attr, modificando cosas de una etiqueta, esta muy guay
-$('#coc').click(function () {
+/* $('#coc').click(function () {
     $('#coc').attr('width', 300)
     $('#coc').attr('src', 'Frank, el buen frank.jpg')
-}) // existe removeattr, excepto de dar con attr quita cosas de la etiqueta 
+})*/ // existe removeattr, excepto de dar con attr quita cosas de la etiqueta
 
-// TODO: Dimensiones
+/* FIXME: TODO: Dimensiones, width y así
+
+$('#coc').click(function () {
+    var H = $('#coc').heigth()
+    alert(H)
+    var hn = $('#coc').heigth(400)
+    alert(hn)
+})*/
+
+//TODO: Efectos, show y hide con botones, escondiendo y mostrando imagen con BOTONES!
+
+/*$('#btn1').click(function () {
+    $('#coco').slideDown(2000) // poner numeros adentro de parentesis para definir tiempo, 1000 es un segundo
+})
+$('#btn2').click(function () {
+    $('#coco').slideUp(2000)
+})*/ // esconder y mostrar deslizando arriba hacia abajo
+
+//Con fade, ahora se va haciendo cada vez más transparente hasta desaparecer
+
+/*$('#btn1').click(function () {
+    $('#coco').fadeIn(1000);
+})
+$('#btn2').click(function () {
+    $('#coco').fadeOut(1000);
+})*/
+
+//FIXME:Con animate, al parecer es para cambiar cosas de css con un solo click
+
+$('#btn1').click(function () {
+    $('#coco').anime(1000)
+    $('#coco').animate({ height: '900px' })
+})
+$('#btn2').click(function () {
+    $('#coco').animate({ height: '500px' })
+})
